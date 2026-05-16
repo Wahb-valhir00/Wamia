@@ -1,0 +1,28 @@
+# ===== Spring Boot =====
+food_delivery_backend/target/
+food_delivery_backend/.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===== Flutter =====
+# (Flutter app has its own .gitignore inside food_delivery_app/)
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Logs =====
+*.log
+flutter_log.txt
+
+# ===== Secrets =====
+.env
+.env.local
